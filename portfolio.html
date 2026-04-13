@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Letter-J-blue-icon.png" type="image/x-icon">
+    <title>Juan Carlos Oliveira Cunha | Portfólio</title>
+    <style>
+        /* Configurações Gerais */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho com Imagem Horizontal */
+        header {
+            background-image: url('img/horizontal1.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            position: relative;
+            margin-bottom: 80px;
+        }
+
+        /* Foto de Perfil Redonda */
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            object-fit: cover;
+            position: absolute;
+            bottom: -70px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Conteúdo Principal */
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            background: #fff;
+            margin-bottom: 20px;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            text-align: left;
+        }
+
+        h1 { margin-top: 0; color: #2c3e50; text-align: center; }
+        h2 { color: #2980b9; border-bottom: 2px solid #2980b9; padding-bottom: 5px; }
+
+        ul { list-style: none; padding: 0; }
+        li { background: #ecf0f1; margin: 5px 0; padding: 10px; border-radius: 4px; }
+
+        /* Links e Botões */
+        a { color: #2980b9; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        footer { text-align: center; padding: 20px; font-size: 0.8em; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="img/perfil.jpeg" alt="Foto de perfil de Juan Carlos" class="profile-img">
+    </header>
+
+    <main>
+        <h1>Desenvolvedor de Software</h1>
+        
+        <section>
+            <h2>Sobre Mim</h2>
+            <p>Estagiário de TI na Secretaria de Economia e Planejamento do Estado do Espírito Santo (SEP) e graduando em Análise e Desenvolvimento de Sistemas na FAESA. Atualmente, atuo com suporte no setor de infraestrutura, mas meu foco e paixão estão no desenvolvimento de software. Tenho conhecimentos em Python, Java, JavaScript, além de tecnologias Web como HTML e CSS.</p>
+        </section>
+
+        <section>
+            <h2>Conhecimentos</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>HTML e CSS</li>
+                </ul>
+                <ul>
+                    <li>SQL</li>
+                    <li>MongoDB</li>
+                    <li>Angular</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Formação</h2>
+            <ul>
+                <li><strong>Análise e Desenvolvimento de Sistemas</strong> - FAESA</li>
+                <li><strong>Ciência da Computação</strong> - FAESA</li>
+                <li><strong>Montagem e Manutenção</strong> - Microlins</li>
+            </ul>
+        </section>
+
+        <section style="text-align: center;">
+            <h2>Contato & Currículo</h2>
+            <p>juan.cunhaoliveira93@gmail.com</p>
+            <p><a href="pdfs/JUAN CARLOS OLIVEIRA DA CUNHA.pdf" target="_blank">📄 Baixar Currículo em PDF</a></p>
+            <div class="social-links">
+                <a href="https://github.com/juancunhaoliveira93-cloud">GitHub</a>
+                <a href="https://www.linkedin.com/in/juancunhaoliveira/">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&reg; 2026 - Juan Carlos Oliveira Cunha</p>
+    </footer>
+
+</body>
+</html>
